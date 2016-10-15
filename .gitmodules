@@ -1,0 +1,3 @@
+[submodule "pychef"]
+	path = pychef
+	url = https://github.com/m1chuang/pychef.git
