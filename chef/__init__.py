@@ -1,7 +1,7 @@
 # Copyright (c) 2010 Noah Kantrowitz <noah@coderanger.net>
-
+__all__ = ['ChefAPI','autoconfigure','Client','DataBag','DataBagItem',
+'ChefError','Node','Role','Environment','Search','Acl']
 __version__ = (0, 3, 0)
-
 from chef.api import ChefAPI, autoconfigure
 from chef.client import Client
 from chef.data_bag import DataBag, DataBagItem
